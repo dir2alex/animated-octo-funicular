@@ -38,3 +38,61 @@
   margin-bottom: 3px;
   text-align: center;
 }
+
+/*VIDEO*/
+
+/* Style the video: 100% width and height to cover the entire window */
+.VIDEO-BGR-OVERLAY {
+  width: 100vw;
+  height: 100vh;
+  object-fit: fill;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+/*Quiz Part*/
+
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid #ffd500;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #ffd500;
+  color: white;
+}
+
+/*Quiz part 1*/
+
+#main {
+width: 80%;
+max-width: 950px;
+border: 1px #fff700 solid;
+margin: auto;
+padding: 10px;
+background-color: #009dff;
+border-radius: 10px;
+}
+
+#header {
+margin-top: 0;
+border: 2px solid #fff700;
+padding: 5px;
+height: 250px;
+background: #009dff;
+background-image: url("images/GLADOS\ IS\ STARING\ AT\ YOU.png");
+color: white;
+}
+
+.q1 p{
+  color: black;
+}
